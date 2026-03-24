@@ -21,7 +21,7 @@ int main() {
                 beginCor = 0;
 			}
         }
-        int a[3][4];
+        int a[100][100];
         for (int i = 0; i < rowCount; i++)
             for (int j = 0; j < colCount; j++) {
                 printf("a[%d][%d]=", i, j);
